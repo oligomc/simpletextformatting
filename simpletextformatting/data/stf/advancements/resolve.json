@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:written_book"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "stf:resolve/main"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Simple Text Formatting",
+        "description": "Use formatting codes in anvils and books!",
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:oligo",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
